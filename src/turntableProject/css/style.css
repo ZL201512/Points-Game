@@ -1,0 +1,32 @@
+.ui-page-theme-a a{/*设置header<a>标签*/
+    color: rgb(174, 42, 27);
+    text-decoration: none;
+}
+.ui-page-theme-a .ui-bar-inherit{/*header和footer的背景颜色和字体颜色*/
+    background-color: rgb(247, 247, 247);
+    color: rgb(174, 42, 27);
+}
+.ui-header .ui-title{/*header的高*/
+    min-height: 1.6em;
+    line-height: 1.8em;
+}
+/*
+*
+*自定义：header里面元素定位
+*/
+#my_header>h1{
+    position: relative;
+    margin: 0px;
+    text-align: left;
+ }
+#my_header>h1>a{
+    position: absolute;
+    left: 1em;
+}
+
+#my_header>h1>span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+}

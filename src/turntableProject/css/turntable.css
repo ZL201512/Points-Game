@@ -1,0 +1,13 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#phone{
+    width:360px;
+    height: 500px;
+    /*border: 1px solid black;*/
+    margin: 50px auto auto auto;
+}
+#canvas{
+    border: 1px solid black;
+}
