@@ -1,0 +1,50 @@
+body{
+    font-family: "myfont";
+    font-size: 100%;
+}
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/DroidSans.ttf");
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#phone{
+    width:360px;
+    height: 500px;
+//    border: 1px solid black;
+    margin: 50px auto auto auto;
+    background-color: #F6403C;
+}
+#canvas{
+//    border: 1px solid black;
+}
+#startGameBtn{
+    display: block;
+    width: 30%;
+    height: 7%;
+    border-radius: 50vh ;
+    border: 2px solid white;
+    .linearBG(top,#51CFE6,#11BEE0);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+    margin: 0 auto;
+    color: white;
+    font-size: 1.2em;
+}
+#startGameBtn:hover{
+  cursor: pointer;
+}
+
+
+.linearBG(@direction,@color1,@color2){
+  background: -webkit-linear-gradient(@direction,@color1,@color2);
+  background: -moz-linear-gradient(@direction,@color1,@color2);
+  background: -ms-linear-gradient(@direction,@color1,@color2);
+  background: -o-linear-gradient(@direction,@color1,@color2);
+}
+/*reset*/
+button{
+    border: 0px;
+    outline: 0px;
+}
