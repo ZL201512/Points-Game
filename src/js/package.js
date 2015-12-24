@@ -7,6 +7,7 @@ HTMLElement.prototype.getFinalStyle = function(css){
     }
 }
 //
+/*
 function $(id){
     return document.getElementById(id);
-}
+}*/

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>转盘部分</title>
+    <link rel="stylesheet/less" href="css/turntable.less">
+    <script type="text/javascript" src="js/less.js"></script>
+</head>
+<body>
+    <div id="phone">
+        <canvas id="canvas" width="100" height="100"></canvas>
+        <button id="startGameBtn">开始</button>
+    </div>
+</body>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/zepto/zepto.min.js"></script>
+<script src="js/package.js"></script>
+<script src="js/turntable.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("#startGameBtn").on("tap", function () {
+        alert("尽情期待吧~");
+    });
+});
+</script>
+</html>

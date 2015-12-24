@@ -1,14 +1,14 @@
-var phoneWidth = parseInt($("phone").getFinalStyle("width"));
-var phoneHeight = parseInt($("phone").getFinalStyle("height"));
+var phoneWidth = parseInt($("#phone")[0].getFinalStyle("width"));
+var phoneHeight = parseInt($("#phone")[0].getFinalStyle("height"));
 var canvasWidth =  phoneWidth;
 var canvasHeight = phoneWidth;
 
-$("canvas").width = canvasWidth;
-$("canvas").height = canvasHeight;
+$("#canvas")[0].width = canvasWidth;
+$("#canvas")[0].height = canvasHeight;
 /**
  *
  */
-var ctx = $("canvas").getContext("2d");
+var ctx = $("#canvas")[0].getContext("2d");
 var translateX = canvasWidth/2;
 var translateY = canvasHeight/2;
 
